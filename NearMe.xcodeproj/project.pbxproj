@@ -11,6 +11,7 @@
 		22A6D1012647049E0006C396 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6D1002647049E0006C396 /* ContentView.swift */; };
 		22A6D103264704A10006C396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A6D102264704A10006C396 /* Assets.xcassets */; };
 		22A6D106264704A10006C396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A6D105264704A10006C396 /* Preview Assets.xcassets */; };
+		22A6D11626470A9D0006C396 /* MKCoordinateRegion+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6D11526470A9D0006C396 /* MKCoordinateRegion+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		22A6D102264704A10006C396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A6D105264704A10006C396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22A6D107264704A10006C396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A6D11526470A9D0006C396 /* MKCoordinateRegion+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		22A6D0FD2647049E0006C396 /* NearMe */ = {
 			isa = PBXGroup;
 			children = (
+				22A6D11426470A9D0006C396 /* Extensions */,
 				22A6D0FE2647049E0006C396 /* NearMeApp.swift */,
 				22A6D1002647049E0006C396 /* ContentView.swift */,
 				22A6D102264704A10006C396 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				22A6D105264704A10006C396 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22A6D11426470A9D0006C396 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				22A6D11526470A9D0006C396 /* MKCoordinateRegion+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A6D1012647049E0006C396 /* ContentView.swift in Sources */,
+				22A6D11626470A9D0006C396 /* MKCoordinateRegion+Extension.swift in Sources */,
 				22A6D0FF2647049E0006C396 /* NearMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
+    
+    private func getRegion() -> Binding<MKCoordinateRegion> {
+        return .constant(MKCoordinateRegion.myRegion)
+    }
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Map(coordinateRegion: getRegion())
     }
 }
 
